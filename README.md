@@ -24,3 +24,16 @@ git clone git@github.com:lgangxit57-coder/CDNWEROHACK.git
 cd CDNWEROHACK
 chmod +x cdnhack.py
 sudo ln -s $(pwd)/cdnhack.py /usr/local/bin/cdnhack
+
+
+## Uso
+
+```bash
+cdnhack --menu                                  # Menú interactivo
+cdnhack --discover -i eth0                      # Descubrimiento ARP
+cdnhack --camscan -t 192.168.1.0/24             # Detectar cámaras (marca/modelo)
+cdnhack --defaults -t 192.168.1.50              # Credenciales por defecto
+cdnhack --cve -t 192.168.1.50                   # Check de CVEs
+cdnhack --brute -t <ip> -s rtsp -U wordlists/users.txt -P wordlists/passes.txt
+cdnhack --harden -t <ip>                        # Hardening DevFuryWero
+cdnhack --report                                # Reporte TXT
