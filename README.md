@@ -27,8 +27,6 @@ sudo ln -s $(pwd)/cdnhack.py /usr/local/bin/cdnhack
 
 
 ## Uso
-
-```bash
 cdnhack --menu                                  # Menú interactivo
 cdnhack --discover -i eth0                      # Descubrimiento ARP
 cdnhack --camscan -t 192.168.1.0/24             # Detectar cámaras (marca/modelo)
