@@ -1,0 +1,4 @@
+# CDNHACK v2.0 — CDN WERO · DevFuryWero
+paramiko>=3.0
+# Binarios del sistema (apt):
+#   sudo apt install -y hydra arp-scan nmap ffmpeg
