@@ -1,1 +1,5 @@
-nano .gitignore
+__pycache__/
+*.pyc
+*.log
+.venv/
+reportes/
