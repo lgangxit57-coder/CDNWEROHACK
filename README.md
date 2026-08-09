@@ -1,7 +1,4 @@
 # CDNWEROHACK
-Tool avanzado en temas de cyberseguridad
-
-# CDNWEROHACK
 
 Tool avanzado en temas de cyberseguridad
 
